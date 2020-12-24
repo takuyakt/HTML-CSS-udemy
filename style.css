@@ -204,7 +204,26 @@ div.clearfix {
 ========================================= */
 footer {
 	width: 100%;
-	height: 79px;
-	background-color: blue;
+	height: auto;
+	background-color: #63abd4;
 	margin-top: 30px;
+}
+
+div#footer_inner {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+p#pagetop a{
+	width: 78px;
+	height: 20px;
+	background-color: #63abd4;
+	text-align: center;
+	color: white;
+	display: block;
+	text-decoration: none;
+	line-height: 20px;
+	position: absolute;
+	top: -20px;
+	right: 0;
 }
