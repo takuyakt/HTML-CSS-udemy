@@ -72,7 +72,7 @@ body {
 div#wrapper {
 	width: 960px ;
 	height: auto;
-	margin: 0 auto
+	margin: 0 auto;
 }
 
 
@@ -206,13 +206,14 @@ footer {
 	width: 100%;
 	height: auto;
 	background-color: #63abd4;
-	margin-top: 30px;
+	margin-top: 50px;
 }
 
 div#footer_inner {
 	width: 960px;
 	margin: 0 auto;
 	position: relative;
+	padding: 20px 0;
 }
 p#pagetop a{
 	width: 78px;
@@ -227,3 +228,28 @@ p#pagetop a{
 	top: -20px;
 	right: 0;
 }
+
+p#footer_logo {
+	float: left;
+}
+
+footer ul {
+	float: right;
+	margin-top: 24px;
+}
+
+footer ul li{
+	float: left;
+	margin-left: 20px;
+}
+
+footer ul li a{
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+
+
