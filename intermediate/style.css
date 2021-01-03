@@ -75,6 +75,7 @@ header h1 {
     padding-left: 51px;
     line-height: 1;
     height: 49px;
+    float: left;
 }
 
 header h1 span {
@@ -85,16 +86,31 @@ header h1 span {
     display: inline-block;
 }
 
+header nav {
+    float: right;
+}
+
+header nav ul li {
+    float: left;
+    margin-left: 25px;
+}
+
+header nav ul li:hover {
+    background: url(images/navbar.png) no-repeat center bottom;
+    height: 36px;
+    display: inline-block;
+}
+
 header nav ul li a {
     font-size: 16px;
     font-weight: bold;
     color : #734339;
     text-decoration: none;
-    height: 29px;
+    height: 26px;
     display: inline-block;
 }
 
-header nav ul li a:hover {
+header nav ul li:hover a {
     color: #345c39;
     border-bottom: 4px solid #345c39;
 }
