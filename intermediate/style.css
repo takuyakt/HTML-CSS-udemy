@@ -139,11 +139,13 @@ div#mainimage{
     サイド（レフト）
 ========================================= */
 div#left{
-    width: 575px;
-    height: 198px;
-    background-color: pink;
+    width: 555px;
+    height: 178px;
+    background-color: #fff;
     float: left;
     margin: 0 20px 0 0;
+    box-shadow: 0 2px 7px rgba(83,78,61,0.3);
+    padding: 10px;
 }
 
 /* ========================================
