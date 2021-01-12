@@ -184,8 +184,14 @@ div#left ul li span {
 div#right{
     width: 365px;
     height: 198px;
-    background-color: green;
     float: left;
+}
+
+div#right ul li a#contact {
+    background: url(images/contact.jpg);
+    width: 365px;
+    height: 60px;
+    display: block;
 }
 
 div.clear{
