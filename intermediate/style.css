@@ -60,6 +60,10 @@ div#wrapper{
     margin: 0 auto;
 }
 
+.box-shadow {
+    box-shadow: 0 2px 7px rgba(83,78,61,0.3);
+}
+
 /* ========================================
     ヘッダー用
 ========================================= */
@@ -132,7 +136,6 @@ div#mainimage{
     height: 290px;
     margin: 20px 0 20px 0;
     border: 5px solid #fff; 
-    box-shadow: 0 2px 7px rgba(83,78,61,0.3);
 }
 
 /* ========================================
@@ -144,7 +147,6 @@ div#left{
     background-color: #fff;
     float: left;
     margin: 0 20px 0 0;
-    box-shadow: 0 2px 7px rgba(83,78,61,0.3);
     padding: 10px;
 }
 
@@ -187,13 +189,19 @@ div#right{
     float: left;
 }
 
-div#right ul li a#contact {
-    background: url(images/contact.jpg);
+div#right ul li a {
     width: 365px;
     height: 60px;
     display: block;
 }
 
+div#right ul li a#contact {
+    background: url(images/contact.jpg);
+}
+
+div#right ul li a#blog {
+    background: url(images/blog.jpg);
+}
 div.clear{
     clear: both;
 }
