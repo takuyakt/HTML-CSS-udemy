@@ -143,7 +143,7 @@ div#mainimage{
 ========================================= */
 div#left{
     width: 555px;
-    height: 178px;
+    height: auto;
     background-color: #fff;
     float: left;
     margin: 0 20px 0 0;
@@ -246,4 +246,21 @@ h2#heading {
     color: #2f5734;
     line-height: 70px;
     padding-left: 23px;
+}
+
+div#left dl dt {
+    font-size: 15px;
+    font-weight: normal;
+    color: #734339;
+}
+
+div#left dl dd {
+    font-size: 13px;
+    font-weight: normal;
+    color: #927e7a;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+div#left dl dd:last-child {
+    margin-bottom: 0;
 }
