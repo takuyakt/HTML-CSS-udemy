@@ -150,7 +150,8 @@ div#left{
     padding: 10px;
 }
 
-div#left h2 {
+div#left h2,
+div#left h3 {
     font-size: 17px;
     font-weight: bold;
     color: #734339;
