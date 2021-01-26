@@ -290,3 +290,21 @@ td.form_title {
 td.form_title label {
     font-weight: bold;
 }
+
+td.form_contents {
+    font-size: 13px;
+    color: #a6a6a6;
+}
+
+td.form_contents input#form_name,
+td.form_contents input#form_tel
+ {
+    width: 421px;
+    height: 22px;
+}
+
+td.form_contents input.form_time
+ {
+    width: 47px;
+    height: 22px;
+}
