@@ -316,3 +316,22 @@ td.form_contents textarea {
     height: 83px;
     border: 1px solod #a6a6a6;
 }
+
+p#submit {
+    text-align: right;
+}
+
+p#submit input {
+    background-color: #325a37;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    width: 136px;
+    height: 40px;
+}
+
+p#submit input:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
