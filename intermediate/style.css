@@ -307,4 +307,12 @@ td.form_contents input.form_time
  {
     width: 47px;
     height: 22px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+td.form_contents textarea {
+    width: 421px;
+    height: 83px;
+    border: 1px solod #a6a6a6;
 }
